@@ -1,0 +1,1 @@
+This is a simple social card made with html and css

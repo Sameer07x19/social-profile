@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Social links profile</title>
+
+    <style>
+      @font-face {
+        font-family: "Bold";
+        src: url("design/assets/fonts/static/Inter-Bold.ttf");
+      }
+      @font-face {
+        font-family: "Regular";
+        src: url("design/assets/fonts/static/Inter-Regular.ttf");
+      }
+      @font-face {
+        font-family: "SemiBold";
+        src: url("design/assets/fonts/static/Inter-SemiBold.ttf");
+      }
+    
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Regular", sans-serif;
+      }
+    
+      html, body {
+        height: 100%;
+        width: 100%;
+      }
+    
+      #main {
+        height: 100%;
+        width: 100%;
+        background-color: #141414;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      #container {
+        height: 650px;
+        width: 400px;
+        background-color: #1f1f1f;
+        padding-top: 30px;
+        border-radius: 12px;
+      }
+    
+      img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-left: 150px;
+      }
+    
+      h3 {
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px 0 10px 0;
+      }
+    
+      h4 {
+        font-size: 14px;
+        font-family: "SemiBold", sans-serif;
+        text-align: center;
+        color: #c4f82a;
+        font-weight: 600;
+      }
+    
+      p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 15px;
+        font-weight: 600;
+      }
+    
+      ul {
+        width: 100%;
+        margin-top: 30px;
+      }
+    
+      #links ul li {
+        height: 55px;
+        width: 80%;
+        list-style: none;
+        margin: 12px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: "Bold", sans-serif;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      }
+    
+      #links ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-color: #333333;
+        color: aliceblue;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      }
+    
+      #links ul li a:hover {
+        background-color: #c4f82a;
+        color: #000;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <img src="https://avatars.githubusercontent.com/u/116171984?s=400&u=11ffb631919d53ff6c1ff5cb24ab743212d34349&v=4" alt="" />
+        <h3>Sameer Sayyed</h3>
+        <h4>Mumbai, India</h4>
+        <p>Developer</p>
+        <div id="links">
+          <ul>
+            <li><a href="https://leetcode.com/u/sameer07x19/">Leetcode</a></li>
+            <li><a href="https://github.com/sameer07x19">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sameer07x19/">LinkedIn</a></li>
+            <li><a href="https://x.com/sameer07x19">Twitter</a></li>
+            <li><a href="https://www.instagram.com/sameer07x20/">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
